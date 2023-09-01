@@ -1,0 +1,315 @@
+2023-09-01T09:34:49.926+05:30  INFO 8704 --- [restartedMain] MarketplaceforDigitalProductsApplication : Starting OnlineMarketplaceforDigitalProductsApplication using Java 17.0.7 with PID 8704 (C:\Users\vishn\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\online_marketplacefor_digital_products\target\classes started by vishn in C:\Users\vishn\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\online_marketplacefor_digital_products)
+2023-09-01T09:34:49.927+05:30  INFO 8704 --- [restartedMain] MarketplaceforDigitalProductsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T09:34:50.294+05:30  INFO 8704 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T09:34:50.325+05:30  INFO 8704 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 4 JPA repository interfaces.
+2023-09-01T09:34:50.454+05:30  INFO 8704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8185 (http)
+2023-09-01T09:34:50.455+05:30  INFO 8704 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T09:34:50.455+05:30  INFO 8704 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T09:34:50.514+05:30  INFO 8704 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T09:34:50.514+05:30  INFO 8704 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 579 ms
+2023-09-01T09:34:50.567+05:30  INFO 8704 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-01T09:34:50.581+05:30  INFO 8704 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:34:50.581+05:30  INFO 8704 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T09:34:50.582+05:30  INFO 8704 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-09-01T09:34:50.601+05:30  INFO 8704 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b4a59d8
+2023-09-01T09:34:50.603+05:30  INFO 8704 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-09-01T09:34:50.625+05:30  INFO 8704 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:34:50.692+05:30  INFO 8704 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-01T09:34:50.757+05:30  INFO 8704 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:34:50.860+05:30  WARN 8704 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T09:34:51.127+05:30  INFO 8704 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-01T09:34:51.149+05:30  INFO 8704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8185 (http) with context path ''
+2023-09-01T09:34:51.155+05:30  INFO 8704 --- [restartedMain] MarketplaceforDigitalProductsApplication : Started OnlineMarketplaceforDigitalProductsApplication in 1.309 seconds (process running for 298.334)
+2023-09-01T09:34:51.157+05:30  INFO 8704 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-01T09:45:25.318+05:30  INFO 8704 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-01T09:45:25.436+05:30  INFO 8704 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-01T09:45:25.499+05:30  INFO 8704 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:45:25.531+05:30  INFO 8704 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-09-01T09:45:25.584+05:30  INFO 8704 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-09-01T09:45:25.848+05:30  INFO 8704 --- [restartedMain] MarketplaceforDigitalProductsApplication : Starting OnlineMarketplaceforDigitalProductsApplication using Java 17.0.7 with PID 8704 (C:\Users\vishn\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\online_marketplacefor_digital_products\target\classes started by vishn in C:\Users\vishn\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\online_marketplacefor_digital_products)
+2023-09-01T09:45:25.849+05:30  INFO 8704 --- [restartedMain] MarketplaceforDigitalProductsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T09:45:26.633+05:30  INFO 8704 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T09:45:26.680+05:30  INFO 8704 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 4 JPA repository interfaces.
+2023-09-01T09:45:26.901+05:30  INFO 8704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8185 (http)
+2023-09-01T09:45:26.902+05:30  INFO 8704 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T09:45:26.902+05:30  INFO 8704 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T09:45:26.971+05:30  INFO 8704 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T09:45:26.971+05:30  INFO 8704 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1113 ms
+2023-09-01T09:45:27.052+05:30  INFO 8704 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-01T09:45:27.068+05:30  INFO 8704 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:45:27.069+05:30  INFO 8704 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T09:45:27.071+05:30  INFO 8704 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-09-01T09:45:27.105+05:30  INFO 8704 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@422b7000
+2023-09-01T09:45:27.105+05:30  INFO 8704 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-09-01T09:45:27.134+05:30  INFO 8704 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:45:27.200+05:30  INFO 8704 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-01T09:45:27.302+05:30  INFO 8704 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:45:27.428+05:30  WARN 8704 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T09:45:27.775+05:30  INFO 8704 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-01T09:45:27.804+05:30  INFO 8704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8185 (http) with context path ''
+2023-09-01T09:45:27.811+05:30  INFO 8704 --- [restartedMain] MarketplaceforDigitalProductsApplication : Started OnlineMarketplaceforDigitalProductsApplication in 2.053 seconds (process running for 934.99)
+2023-09-01T09:45:27.813+05:30  INFO 8704 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-01T09:45:51.131+05:30  INFO 8704 --- [RMI TCP Connection(20)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-09-01T09:45:51.148+05:30  INFO 8704 --- [RMI TCP Connection(20)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-01T09:45:51.158+05:30  INFO 8704 --- [RMI TCP Connection(20)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:45:51.159+05:30  INFO 8704 --- [RMI TCP Connection(20)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-09-01T09:45:51.168+05:30  INFO 8704 --- [RMI TCP Connection(20)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-09-01T09:45:58.884+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : Starting OnlineMarketplaceforDigitalProductsApplication using Java 17.0.7 with PID 17008 (C:\Users\vishn\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\online_marketplacefor_digital_products\target\classes started by vishn in C:\Users\vishn\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\online_marketplacefor_digital_products)
+2023-09-01T09:45:58.888+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T09:45:58.978+05:30  INFO 17008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-01T09:45:58.979+05:30  INFO 17008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-01T09:46:00.330+05:30  INFO 17008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T09:46:00.459+05:30  INFO 17008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 4 JPA repository interfaces.
+2023-09-01T09:46:01.512+05:30  INFO 17008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8185 (http)
+2023-09-01T09:46:01.529+05:30  INFO 17008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T09:46:01.531+05:30  INFO 17008 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T09:46:01.690+05:30  INFO 17008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T09:46:01.691+05:30  INFO 17008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2711 ms
+2023-09-01T09:46:01.968+05:30  INFO 17008 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-01T09:46:02.107+05:30  INFO 17008 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-01T09:46:02.112+05:30  INFO 17008 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-01T09:46:02.422+05:30  INFO 17008 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:46:02.726+05:30  INFO 17008 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T09:46:02.759+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-01T09:46:03.385+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71e2fa97
+2023-09-01T09:46:03.395+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-01T09:46:04.064+05:30  INFO 17008 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:46:05.537+05:30  INFO 17008 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-01T09:46:05.750+05:30  INFO 17008 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:46:06.222+05:30  INFO 17008 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-09-01T09:46:06.323+05:30  WARN 17008 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T09:46:07.366+05:30  INFO 17008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-01T09:46:07.435+05:30  INFO 17008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8185 (http) with context path ''
+2023-09-01T09:46:07.450+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : Started OnlineMarketplaceforDigitalProductsApplication in 9.371 seconds (process running for 11.41)
+2023-09-01T09:49:11.267+05:30  INFO 17008 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-01T09:49:11.292+05:30  INFO 17008 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-01T09:49:11.304+05:30  INFO 17008 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:49:11.310+05:30  INFO 17008 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-01T09:49:11.341+05:30  INFO 17008 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-01T09:49:11.519+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : Starting OnlineMarketplaceforDigitalProductsApplication using Java 17.0.7 with PID 17008 (C:\Users\vishn\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\online_marketplacefor_digital_products\target\classes started by vishn in C:\Users\vishn\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\online_marketplacefor_digital_products)
+2023-09-01T09:49:11.519+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T09:49:12.333+05:30  INFO 17008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T09:49:12.393+05:30  INFO 17008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 4 JPA repository interfaces.
+2023-09-01T09:49:12.592+05:30  INFO 17008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8185 (http)
+2023-09-01T09:49:12.594+05:30  INFO 17008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T09:49:12.596+05:30  INFO 17008 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T09:49:12.653+05:30  INFO 17008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T09:49:12.653+05:30  INFO 17008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1129 ms
+2023-09-01T09:49:12.714+05:30  INFO 17008 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-01T09:49:12.728+05:30  INFO 17008 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:49:12.729+05:30  INFO 17008 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T09:49:12.731+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-09-01T09:49:12.753+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f598614
+2023-09-01T09:49:12.753+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-09-01T09:49:12.784+05:30  INFO 17008 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:49:12.860+05:30  INFO 17008 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-01T09:49:12.933+05:30  INFO 17008 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:49:13.051+05:30  WARN 17008 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T09:49:13.364+05:30  INFO 17008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-01T09:49:13.389+05:30  INFO 17008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8185 (http) with context path ''
+2023-09-01T09:49:13.397+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : Started OnlineMarketplaceforDigitalProductsApplication in 1.932 seconds (process running for 197.356)
+2023-09-01T09:49:13.400+05:30  INFO 17008 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-01T09:51:16.346+05:30  INFO 17008 --- [http-nio-8185-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01T09:51:16.348+05:30  INFO 17008 --- [http-nio-8185-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01T09:51:16.367+05:30  INFO 17008 --- [http-nio-8185-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-09-01T09:53:12.980+05:30  INFO 17008 --- [http-nio-8185-exec-10] com.Project.controller.Controller        : This is Bucks Bunny
+2023-09-01T09:53:12.983+05:30 DEBUG 17008 --- [http-nio-8185-exec-10] com.Project.controller.Controller        : debug
+2023-09-01T09:53:12.983+05:30  WARN 17008 --- [http-nio-8185-exec-10] com.Project.controller.Controller        : warn
+2023-09-01T09:53:12.983+05:30 ERROR 17008 --- [http-nio-8185-exec-10] com.Project.controller.Controller        : error
+2023-09-01T09:53:13.007+05:30 ERROR 17008 --- [http-nio-8185-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessApiUsageException: Modifying queries can only use void or int/Integer as return type; Offending method: public abstract com.Project.model.User com.Project.repository.UserRepository.getUserData(int)] with root cause
+
+java.lang.IllegalArgumentException: Modifying queries can only use void or int/Integer as return type; Offending method: public abstract com.Project.model.User com.Project.repository.UserRepository.getUserData(int)
+	at org.springframework.util.Assert.isTrue(Assert.java:122) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$ModifyingExecution.<init>(JpaQueryExecution.java:251) ~[spring-data-jpa-3.1.3.jar:3.1.3]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.getExecution(AbstractJpaQuery.java:168) ~[spring-data-jpa-3.1.3.jar:3.1.3]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:136) ~[spring-data-jpa-3.1.3.jar:3.1.3]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136) ~[spring-data-commons-3.1.3.jar:3.1.3]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120) ~[spring-data-commons-3.1.3.jar:3.1.3]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164) ~[spring-data-commons-3.1.3.jar:3.1.3]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143) ~[spring-data-commons-3.1.3.jar:3.1.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.11.jar:6.0.11]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:72) ~[spring-data-commons-3.1.3.jar:3.1.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.11.jar:6.0.11]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-6.0.11.jar:6.0.11]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391) ~[spring-tx-6.0.11.jar:6.0.11]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.0.11.jar:6.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.11.jar:6.0.11]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.0.11.jar:6.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.11.jar:6.0.11]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135) ~[spring-data-jpa-3.1.3.jar:3.1.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.11.jar:6.0.11]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.0.11.jar:6.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.11.jar:6.0.11]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244) ~[spring-aop-6.0.11.jar:6.0.11]
+	at jdk.proxy5/jdk.proxy5.$Proxy146.getUserData(Unknown Source) ~[na:na]
+	at com.Project.service.Service.getUserData(Service.java:46) ~[classes/:na]
+	at com.Project.controller.Controller.getUserData(Controller.java:36) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.12.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.11.jar:6.0.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.12.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.12.jar:10.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.11.jar:6.0.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.12.jar:10.1.12]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-09-01T09:53:49.791+05:30  INFO 17008 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-01T09:53:49.844+05:30  INFO 17008 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-01T09:53:49.845+05:30  INFO 17008 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-01T09:53:49.869+05:30  INFO 17008 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:53:49.872+05:30  INFO 17008 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-09-01T09:53:49.885+05:30  INFO 17008 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-09-01T09:53:50.048+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : Starting OnlineMarketplaceforDigitalProductsApplication using Java 17.0.7 with PID 17008 (C:\Users\vishn\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\online_marketplacefor_digital_products\target\classes started by vishn in C:\Users\vishn\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\online_marketplacefor_digital_products)
+2023-09-01T09:53:50.049+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T09:53:50.838+05:30  INFO 17008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T09:53:50.871+05:30  INFO 17008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 4 JPA repository interfaces.
+2023-09-01T09:53:51.043+05:30  INFO 17008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8185 (http)
+2023-09-01T09:53:51.044+05:30  INFO 17008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T09:53:51.044+05:30  INFO 17008 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T09:53:51.098+05:30  INFO 17008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T09:53:51.098+05:30  INFO 17008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1043 ms
+2023-09-01T09:53:51.154+05:30  INFO 17008 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-01T09:53:51.175+05:30  INFO 17008 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:53:51.175+05:30  INFO 17008 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T09:53:51.177+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-09-01T09:53:51.203+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c40658b
+2023-09-01T09:53:51.204+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-09-01T09:53:51.231+05:30  INFO 17008 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:53:51.314+05:30  INFO 17008 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-01T09:53:51.403+05:30  INFO 17008 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:53:51.590+05:30  WARN 17008 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T09:53:51.963+05:30  INFO 17008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-01T09:53:52.009+05:30  INFO 17008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8185 (http) with context path ''
+2023-09-01T09:53:52.018+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : Started OnlineMarketplaceforDigitalProductsApplication in 2.057 seconds (process running for 475.978)
+2023-09-01T09:53:52.021+05:30  INFO 17008 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-01T09:54:09.809+05:30  INFO 17008 --- [http-nio-8185-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01T09:54:09.810+05:30  INFO 17008 --- [http-nio-8185-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01T09:54:09.811+05:30  INFO 17008 --- [http-nio-8185-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-01T09:54:09.816+05:30  INFO 17008 --- [http-nio-8185-exec-2] com.Project.controller.Controller        : This is Bucks Bunny
+2023-09-01T09:54:09.817+05:30 DEBUG 17008 --- [http-nio-8185-exec-2] com.Project.controller.Controller        : debug
+2023-09-01T09:54:09.817+05:30  WARN 17008 --- [http-nio-8185-exec-2] com.Project.controller.Controller        : warn
+2023-09-01T09:54:09.817+05:30 ERROR 17008 --- [http-nio-8185-exec-2] com.Project.controller.Controller        : error
+2023-09-01T09:54:20.718+05:30  INFO 17008 --- [http-nio-8185-exec-4] com.Project.controller.Controller        : This is Bucks Bunny
+2023-09-01T09:54:20.720+05:30 DEBUG 17008 --- [http-nio-8185-exec-4] com.Project.controller.Controller        : debug
+2023-09-01T09:54:20.720+05:30  WARN 17008 --- [http-nio-8185-exec-4] com.Project.controller.Controller        : warn
+2023-09-01T09:54:20.720+05:30 ERROR 17008 --- [http-nio-8185-exec-4] com.Project.controller.Controller        : error
+2023-09-01T10:34:53.997+05:30  INFO 17008 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-01T10:34:54.188+05:30  INFO 17008 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-01T10:34:54.196+05:30  INFO 17008 --- [Thread-11] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-01T10:34:54.303+05:30  INFO 17008 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T10:34:54.339+05:30  INFO 17008 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-09-01T10:34:54.356+05:30  INFO 17008 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-09-01T10:34:55.908+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : Starting OnlineMarketplaceforDigitalProductsApplication using Java 17.0.7 with PID 17008 (C:\Users\vishn\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\online_marketplacefor_digital_products\target\classes started by vishn in C:\Users\vishn\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\online_marketplacefor_digital_products)
+2023-09-01T10:34:55.910+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T10:34:56.598+05:30  INFO 17008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T10:34:56.636+05:30  INFO 17008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 4 JPA repository interfaces.
+2023-09-01T10:34:56.882+05:30  INFO 17008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8185 (http)
+2023-09-01T10:34:56.884+05:30  INFO 17008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T10:34:56.884+05:30  INFO 17008 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T10:34:56.947+05:30  INFO 17008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T10:34:56.947+05:30  INFO 17008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1029 ms
+2023-09-01T10:34:57.023+05:30  INFO 17008 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-01T10:34:57.047+05:30  INFO 17008 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T10:34:57.048+05:30  INFO 17008 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T10:34:57.051+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-09-01T10:34:57.162+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e540943
+2023-09-01T10:34:57.162+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-09-01T10:34:57.204+05:30  INFO 17008 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T10:34:57.319+05:30  INFO 17008 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-01T10:34:57.514+05:30  INFO 17008 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T10:34:57.672+05:30  WARN 17008 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T10:34:58.256+05:30  INFO 17008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-01T10:34:58.318+05:30  INFO 17008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8185 (http) with context path ''
+2023-09-01T10:34:58.332+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : Started OnlineMarketplaceforDigitalProductsApplication in 2.672 seconds (process running for 2942.292)
+2023-09-01T10:34:58.336+05:30  INFO 17008 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-01T10:35:48.379+05:30  INFO 17008 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-01T10:35:48.422+05:30  INFO 17008 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-01T10:35:48.431+05:30  INFO 17008 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T10:35:48.433+05:30  INFO 17008 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-09-01T10:35:48.470+05:30  INFO 17008 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-09-01T10:35:48.634+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : Starting OnlineMarketplaceforDigitalProductsApplication using Java 17.0.7 with PID 17008 (C:\Users\vishn\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\online_marketplacefor_digital_products\target\classes started by vishn in C:\Users\vishn\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\online_marketplacefor_digital_products)
+2023-09-01T10:35:48.635+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T10:35:49.178+05:30  INFO 17008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T10:35:49.209+05:30  INFO 17008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 4 JPA repository interfaces.
+2023-09-01T10:35:49.364+05:30  INFO 17008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8185 (http)
+2023-09-01T10:35:49.365+05:30  INFO 17008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T10:35:49.366+05:30  INFO 17008 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T10:35:49.425+05:30  INFO 17008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T10:35:49.425+05:30  INFO 17008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 785 ms
+2023-09-01T10:35:49.555+05:30  INFO 17008 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-01T10:35:49.589+05:30  INFO 17008 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T10:35:49.589+05:30  INFO 17008 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T10:35:49.593+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-09-01T10:35:49.639+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@750ed7d7
+2023-09-01T10:35:49.640+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-09-01T10:35:49.676+05:30  INFO 17008 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T10:35:49.747+05:30  INFO 17008 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-01T10:35:49.821+05:30  INFO 17008 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T10:35:50.064+05:30  WARN 17008 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T10:35:50.671+05:30  INFO 17008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-01T10:35:50.802+05:30  INFO 17008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8185 (http) with context path ''
+2023-09-01T10:35:50.841+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : Started OnlineMarketplaceforDigitalProductsApplication in 2.278 seconds (process running for 2994.8)
+2023-09-01T10:35:50.858+05:30  INFO 17008 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-01T10:43:05.275+05:30  INFO 17008 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-01T10:43:05.297+05:30  INFO 17008 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-01T10:43:05.304+05:30  INFO 17008 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T10:43:05.305+05:30  INFO 17008 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-09-01T10:43:05.314+05:30  INFO 17008 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-09-01T10:43:05.465+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : Starting OnlineMarketplaceforDigitalProductsApplication using Java 17.0.7 with PID 17008 (C:\Users\vishn\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\online_marketplacefor_digital_products\target\classes started by vishn in C:\Users\vishn\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\online_marketplacefor_digital_products)
+2023-09-01T10:43:05.466+05:30  INFO 17008 --- [restartedMain] MarketplaceforDigitalProductsApplication : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T10:43:05.932+05:30  INFO 17008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T10:43:05.963+05:30  INFO 17008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 4 JPA repository interfaces.
+2023-09-01T10:43:06.187+05:30  INFO 17008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8185 (http)
+2023-09-01T10:43:06.188+05:30  INFO 17008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T10:43:06.189+05:30  INFO 17008 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-01T10:43:06.320+05:30  INFO 17008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T10:43:06.321+05:30  INFO 17008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 851 ms
+2023-09-01T10:43:06.413+05:30  INFO 17008 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-01T10:43:06.428+05:30  INFO 17008 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T10:43:06.429+05:30  INFO 17008 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T10:43:06.431+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-09-01T10:43:06.455+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79f5a04
+2023-09-01T10:43:06.456+05:30  INFO 17008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-09-01T10:43:06.479+05:30  INFO 17008 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
